@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>add new car</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f54cfb24-fbd1-4dcb-92af-e04344f8cc61</testCaseGuid>
+   <variable>
+      <defaultValue>'C:\\Users\\ahmed\\Desktop\\sultan-gardens-resort.jpg'</defaultValue>
+      <description></description>
+      <id>df16a8e9-2b6d-4d0b-97df-354714aba1ba</id>
+      <masked>false</masked>
+      <name>file</name>
+   </variable>
+</TestCaseEntity>
