@@ -17,15 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://www.contactcars.com/')
-
+ 
 'Maximize current window'
-WebUI.maximizeWindow()
+WebUI.maximizeWindow() 
 
 //WebUI.navigateToUrl('https://www.contactcars.com/')
 WebUI.verifyElementText(findTestObject('Page_      - ContactCars.com/registertext'), 'تسجيل الدخول', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_      - ContactCars.com/registertext'))
-
+   
 WebUI.click(findTestObject('userexist/Page_      - ContactCars.com/userlogin'))
 
 WebUI.navigateToUrl('https://www.contactcars.com/user/login')
